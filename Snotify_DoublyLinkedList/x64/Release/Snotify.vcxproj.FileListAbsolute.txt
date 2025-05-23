@@ -1,0 +1,3 @@
+D:\GameAlgorithmsAndGems\Snotify\x64\Release\Snotify.exe
+D:\GameAlgorithmsAndGems\Snotify_DoublyLinkedList\x64\Release\Snotify.exe
+D:\GameAlgorithmsAndGems\Snotify_cVectainer_DLinkedList\Snotify_DoublyLinkedList\x64\Release\Snotify.exe

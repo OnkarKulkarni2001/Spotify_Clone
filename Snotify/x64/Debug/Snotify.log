@@ -1,0 +1,87 @@
+﻿  cMusicGenerator.cpp
+D:\GameAlgorithmsAndGems\Snotify\cMusicGenerator.cpp(32,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cMusicGenerator.cpp(32,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cMusicGenerator.cpp(33,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28): warning C4018: '>': signed/unsigned mismatch
+  (compiling source file 'cMusicGenerator.cpp')
+  D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28):
+  the template instantiation context (the oldest one first) is
+  	D:\GameAlgorithmsAndGems\Snotify\cMusicGenerator.h(22,20):
+  	see reference to class template instantiation 'cVectainer<cSong>' being compiled
+  	D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(121,1):
+  	while compiling class template member function 'T &cVectainer<T>::getAt(int)'
+          with
+          [
+              T=cSong
+          ]
+  		D:\GameAlgorithmsAndGems\Snotify\cMusicGenerator.cpp(26,2):
+  		see the first reference to 'cVectainer<cSong>::getAt' in 'cMusicGenerator::getRandomSong'
+  
+  cPerson.cpp
+  cPersonGenerator.cpp
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(18,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(21,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(25,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(27,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(36,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(37,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(41,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(45,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(46,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(48,23): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(173,15): warning C4101: 'babyNameFrequency': unreferenced local variable
+D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28): warning C4018: '>': signed/unsigned mismatch
+  (compiling source file 'cPersonGenerator.cpp')
+  D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28):
+  the template instantiation context (the oldest one first) is
+  	D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.h(70,20):
+  	see reference to class template instantiation 'cVectainer<cPersonGenerator::sBaby>' being compiled
+  	D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(121,1):
+  	while compiling class template member function 'T &cVectainer<T>::getAt(int)'
+          with
+          [
+              T=cPersonGenerator::sBaby
+          ]
+  		D:\GameAlgorithmsAndGems\Snotify\cPersonGenerator.cpp(18,18):
+  		see the first reference to 'cVectainer<cPersonGenerator::sBaby>::getAt' in 'selectFirstNameByFrequency'
+  
+  cSnotify.cpp
+D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28): warning C4018: '>': signed/unsigned mismatch
+  (compiling source file 'cSnotify.cpp')
+  D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28):
+  the template instantiation context (the oldest one first) is
+  	D:\GameAlgorithmsAndGems\Snotify\cPerson.h(66,20):
+  	see reference to class template instantiation 'cVectainer<cSong>' being compiled
+  	D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(121,1):
+  	while compiling class template member function 'T &cVectainer<T>::getAt(int)'
+          with
+          [
+              T=cSong
+          ]
+  		D:\GameAlgorithmsAndGems\Snotify\cSnotify.cpp(91,3):
+  		see the first reference to 'cVectainer<cSong>::getAt' in 'cSnotify::UpdateSong'
+  
+  cSong.cpp
+  Source.cpp
+D:\GameAlgorithmsAndGems\Snotify\Source.cpp(134,23): warning C4018: '<': signed/unsigned mismatch
+D:\GameAlgorithmsAndGems\Snotify\Source.cpp(141,23): warning C4018: '<': signed/unsigned mismatch
+D:\GameAlgorithmsAndGems\Snotify\Source.cpp(147,23): warning C4018: '<': signed/unsigned mismatch
+D:\GameAlgorithmsAndGems\Snotify\Source.cpp(153,23): warning C4018: '<': signed/unsigned mismatch
+D:\GameAlgorithmsAndGems\Snotify\Source.cpp(159,23): warning C4018: '<': signed/unsigned mismatch
+D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28): warning C4018: '>': signed/unsigned mismatch
+  (compiling source file 'Source.cpp')
+  D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(123,28):
+  the template instantiation context (the oldest one first) is
+  	D:\GameAlgorithmsAndGems\Snotify\cPerson.h(66,20):
+  	see reference to class template instantiation 'cVectainer<cSong>' being compiled
+  	D:\GameAlgorithmsAndGems\Snotify\cVectainer.h(121,1):
+  	while compiling class template member function 'T &cVectainer<T>::getAt(int)'
+          with
+          [
+              T=cSong
+          ]
+  		D:\GameAlgorithmsAndGems\Snotify\Source.cpp(39,16):
+  		see the first reference to 'cVectainer<cSong>::getAt' in 'main'
+  
+  Generating Code...
+  Snotify.vcxproj -> D:\GameAlgorithmsAndGems\Snotify\x64\Debug\Snotify.exe
